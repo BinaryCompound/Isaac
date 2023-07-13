@@ -1,0 +1,59 @@
+---
+import BackNav from "../components/BackNav.astro";
+import "../styles/global.css";
+const pageTitle = "Карты";
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{pageTitle}</title>
+    </head>
+    <body>
+        <img src="public/images/logo.png" class="logo" />
+        <h1>{pageTitle}</h1>
+        <h1>Выбор по типу карты</h1>
+        <img
+            src="public/Images/TypeCard/CharacterCardBack-110x150.png"
+            alt=""
+            class="card"
+        />
+        <img
+            src="public/Images/TypeCard/EternalCardBack-110x150.png"
+            alt=""
+            class="card"
+        />
+        <img
+            src="public/Images/TypeCard/TreasureCardBack-110x150.png"
+            alt=""
+            class="card"
+        />
+        <img
+            src="public/Images/TypeCard/LootCardBack-110x150.png"
+            alt=""
+            class="card"
+        />
+        <img
+            src="public/Images/TypeCard/MonsterCardBack-110x150.png"
+            alt=""
+            class="card"
+        />
+        <img
+            src="public/Images/TypeCard/BonusSoulCardBack-110x150.png"
+            alt=""
+            class="card"
+        />
+        <BackNav />
+    </body>
+    <style>
+        .card {
+            border: 2px solid black;
+            border-radius: 8px;
+            padding: 0px;
+            margin-inline: 20px;
+        }
+    </style>
+</html>
