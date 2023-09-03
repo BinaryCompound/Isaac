@@ -160,12 +160,4 @@ a:focus {
         padding: 15px 20px;
     }
 
-    body {
-        margin: 0px;
-        width: fit-content;
-    }
-
-    ul {
-        font-size: 20px;
-    }
 }
