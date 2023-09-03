@@ -39,8 +39,8 @@ p {
     color: black;
     text-align: -webkit-left;
     border-radius: 4px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .backGroundText {
@@ -163,12 +163,6 @@ a:focus {
     body {
         margin: 0px;
         width: fit-content;
-    }
-
-    p {
-        font-size: 25px;
-        padding-left: 5%;
-        padding-right: 5%;
     }
 
     ul {
