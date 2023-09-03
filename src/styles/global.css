@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: #FFE4B5;
+    background-color: #8B4513;
     border: 2px solid black;
     border-radius: 8px;
     font-family: 'Mulish', sans-serif;
@@ -40,6 +40,14 @@ p {
     border-radius: 4px;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+.backGroundText {
+    background-color: rgb(209, 160, 125);
+}
+
+.layerText {
+    background-color: #BC8F8F;
 }
 
 .hamburger {
@@ -136,7 +144,7 @@ a:focus {
     background-color: black;
 }
 
-@media screen and (min-width: 636px) {
+@media screen and (min-width: 600px) {
     .nav-links {
         margin-left: 5em;
         display: block;
@@ -150,4 +158,11 @@ a:focus {
         padding: 15px 20px;
     }
 
+    p {
+        font-size: 20px;
+    }
+
+    ul {
+        font-size: 20px;
+    }
 }
