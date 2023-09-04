@@ -160,4 +160,7 @@ a:focus {
         padding: 15px 20px;
     }
 
+    * {
+        padding: 0.5rem;
+    }
 }
