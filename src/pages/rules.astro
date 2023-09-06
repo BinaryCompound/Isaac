@@ -1,6 +1,10 @@
 ---
 import "../styles/global.css";
 import "../components/BackNav.astro";
+import logo from "../../public/logo.png";
+import lootCardBack from "../../public/Images/tutorial/LootCardBack-110x150.png";
+import TreasureCardBack from "../../public/Images/tutorial/TreasureCardBack-110x150.png";
+import MonsterCardBack from "../../public/Images/tutorial/MonsterCardBack-110x150.png";
 import BackNav from "../components/BackNav.astro";
 const pageTitle = "Правила";
 ---
@@ -14,7 +18,7 @@ const pageTitle = "Правила";
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<img src="../public/Images/logo.png" class="logo" />
+		<img src={logo} class="logo" />
 		<BackNav />
 		<div class="backGroundText">
 			<h1>{pageTitle}</h1>
@@ -133,18 +137,14 @@ const pageTitle = "Правила";
 				<h1>Типы карт</h1>
 				<p id="center">Нажмите, чтобы посмотреть</p>
 
+				<img src={lootCardBack} alt="LootCardBack" class="card" />
 				<img
-					src="public/Images/Tutorial/LootCardBack-110x150.png"
-					alt="LootCardBack"
-					class="card"
-				/>
-				<img
-					src="public/Images/Tutorial/TreasureCardBack-110x150.png"
+					src={TreasureCardBack}
 					alt="TreasureCardBack"
 					class="card"
 				/>
 				<img
-					src="public/Images/Tutorial/MonsterCardBack-110x150.png"
+					src={MonsterCardBack}
 					alt="MonsterCardBack"
 					class="card"
 				/>

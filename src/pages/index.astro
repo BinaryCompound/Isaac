@@ -1,6 +1,7 @@
 ---
 import Navigation from "../components/Navigation.astro";
 import "../styles/global.css";
+import logo from "../../public/logo.png";
 const pageTitle = "The Binding of Isaac: Four Souls";
 ---
 
@@ -13,7 +14,7 @@ const pageTitle = "The Binding of Isaac: Four Souls";
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<img src="../public/images/logo.png" class="logo" />
+		<img src={logo} class="logo" />
 		<h1>{pageTitle}</h1>
 		<h2>Справочник по настольной игре</h2>
 		<Navigation />
