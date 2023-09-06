@@ -153,6 +153,23 @@ a:focus {
     background-color: black;
 }
 
+::-webkit-scrollbar-track {
+    background-color: black;
+    /*Цвет скролла*/
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    /*Закругление ползунка*/
+    background-color: #ffffff;
+    /*Цвет ползунка*/
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    /*Толщина скролла*/
+}
+
 @media screen and (min-width: 600px) {
     .nav-links {
         margin-left: 5em;
