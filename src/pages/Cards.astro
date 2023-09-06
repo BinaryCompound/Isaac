@@ -1,6 +1,13 @@
 ---
 import BackNav from "../components/BackNav.astro";
 import "../styles/global.css";
+import logo from "../../public/logo.png";
+import lootCardBack from "../../public/Images/tutorial/LootCardBack-110x150.png";
+import TreasureCardBack from "../../public/Images/tutorial/TreasureCardBack-110x150.png";
+import MonsterCardBack from "../../public/Images/tutorial/MonsterCardBack-110x150.png";
+import CharacterCardBack from "../../public/Images/TypeCard/CharacterCardBack-110x150.png";
+import EternalCardBack from "../../public/Images/TypeCard/EternalCardBack-110x150.png";
+import BonusSoulCardBack from "../../public/Images/TypeCard/BonusSoulCardBack-110x150.png";
 const pageTitle = "Карты";
 ---
 
@@ -13,47 +20,37 @@ const pageTitle = "Карты";
         <title>{pageTitle}</title>
     </head>
     <body>
-        <img src="public/images/logo.png" class="logo" />
-        <h1>{pageTitle}</h1>
-        <h1>Выбор по типу карты</h1>
-        <img
-            src="public/Images/TypeCard/CharacterCardBack-110x150.png"
-            alt=""
-            class="card"
-        />
-        <img
-            src="public/Images/TypeCard/EternalCardBack-110x150.png"
-            alt=""
-            class="card"
-        />
-        <img
-            src="public/Images/TypeCard/TreasureCardBack-110x150.png"
-            alt=""
-            class="card"
-        />
-        <img
-            src="public/Images/TypeCard/LootCardBack-110x150.png"
-            alt=""
-            class="card"
-        />
-        <img
-            src="public/Images/TypeCard/MonsterCardBack-110x150.png"
-            alt=""
-            class="card"
-        />
-        <img
-            src="public/Images/TypeCard/BonusSoulCardBack-110x150.png"
-            alt=""
-            class="card"
-        />
-        <BackNav />
+        <img src={logo} class="logo" />
+        <div class="backGroundText">
+            <h1>{pageTitle}</h1>
+            <h1>Выбор по типу карты</h1>
+            <div class="separator"></div>
+            <img src={CharacterCardBack} alt="" class="card" />
+            <p>персонажи</p>
+            <div class="separator"></div>
+            <img src={EternalCardBack} alt="" class="card" />
+            <p>Начальный предмет</p>
+            <div class="separator"></div>
+            <img src={TreasureCardBack} alt="" class="card" />
+            <p>Сокровиша</p>
+            <div class="separator"></div>
+            <img src={lootCardBack} alt="" class="card" />
+            <p>добыча</p>
+            <div class="separator"></div>
+            <img src={MonsterCardBack} alt="" class="card" />
+            <p>монстры</p>
+            <div class="separator"></div>
+            <img src={BonusSoulCardBack} alt="" class="card" />
+            <p>бонусные души</p>
+        </div>
     </body>
-    <style>
-        .card {
-            border: 2px solid black;
-            border-radius: 8px;
-            padding: 0px;
-            margin-inline: 20px;
-        }
-    </style>
+    <BackNav />
 </html>
+<style>
+    .card {
+        border: 2px solid black;
+        border-radius: 8px;
+        padding: 0px;
+        margin-inline: 20px;
+    }
+</style>
