@@ -5,6 +5,7 @@ import logo from "../../public/logo.png";
 import lootCardBack from "../../public/Images/tutorial/LootCardBack-110x150.png";
 import TreasureCardBack from "../../public/Images/tutorial/TreasureCardBack-110x150.png";
 import MonsterCardBack from "../../public/Images/tutorial/MonsterCardBack-110x150.png";
+import explanations from "../../public/Images/tutorial/4.png";
 import BackNav from "../components/BackNav.astro";
 const pageTitle = "Правила";
 ---
@@ -143,11 +144,7 @@ const pageTitle = "Правила";
 					alt="TreasureCardBack"
 					class="card"
 				/>
-				<img
-					src={MonsterCardBack}
-					alt="MonsterCardBack"
-					class="card"
-				/>
+				<img src={MonsterCardBack} alt="MonsterCardBack" class="card" />
 
 				<div class="separator"></div>
 
@@ -290,7 +287,7 @@ const pageTitle = "Правила";
 					</ul>
 					<div class="BackImage">
 						<img
-							src="public/Images/tutorial/4.png"
+							src={explanations}
 							alt=""
 							style="width: 454px;"
 							id="adaptiveImage"
