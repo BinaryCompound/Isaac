@@ -13,20 +13,6 @@ body {
     text-align: center;
 }
 
-#PageContent {
-    border-image-source: url(https://foursouls.com/wp-content/uploads/2021/08/FourSoulsPageBorderV5.png);
-    border-image-width: 156px 104px;
-    border-image-repeat: stretch repeat;
-    border-image-slice: 156 104 156 fill;
-    padding: 50px 128px 124px 128px;
-    box-sizing: border-box;
-    overflow: hidden;
-    image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
-    margin-bottom: 80px;
-}
-
 * {
     margin: 10px auto;
     max-width: 90ch;
