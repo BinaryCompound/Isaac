@@ -163,4 +163,8 @@ a:focus {
     * {
         padding: 0.5rem;
     }
+
+    p{
+        font-size: 30px;
+    }
 }
