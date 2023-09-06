@@ -14,10 +14,14 @@ const pageTitle = "The Binding of Isaac: Four Souls";
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<img src={logo} class="logo" />
-		<h1>{pageTitle}</h1>
-		<h2>Справочник по настольной игре</h2>
-		<Navigation />
+		<div class="backGroundText">
+			<img src={logo} class="logo" />
+			<div class="layerText">
+				<h1>{pageTitle}</h1>
+				<h2>Справочник по настольной игре</h2>
+				<Navigation />
+			</div>
+		</div>
 	</body>
 </html>
 <style></style>
