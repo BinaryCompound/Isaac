@@ -1,23 +1,7 @@
-.vertical-menu {
-    width: 200px;
-    position: fixed;
-    bottom: 40px;
-    left: -32px;
-}
 
-a {
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    display: block;
-    border: 2px solid black;
-    border-radius: 8px;
-    transition: 0.5s;
+.link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
 }
-
-a:hover {
-    background-color: white;
-    color: black;
-}
-
 

@@ -138,6 +138,12 @@ a:focus {
     right: 20px;
 }
 
+.backUp {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+}
+
 .expanded {
     display: unset;
 }
